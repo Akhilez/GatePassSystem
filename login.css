@@ -1,0 +1,45 @@
+#container{
+	width:100%;
+	text-align:center;
+}
+#header{
+	padding:10px;
+	color:orange;
+	outline:1px solid black;
+	font-size:17px;
+	text-align:center;
+}
+#content{
+	padding:5px;
+	float:down;
+	outline:1px solid black;
+	width:1155px;
+	height:450px;
+}
+#login_as{
+	background-color:lightblue;
+	padding:10px;
+	float:left;
+	width:250px;
+	height:430px;	
+}
+#main2{
+	padding:10px;
+	background-color:teal;
+	float:right;
+	width:863px;
+	height:430px;
+}
+#footer{
+	
+	background-color:orange;
+	text-align:right;
+}
+form
+{
+background-color:teal;
+padding:10px;
+outline:1px solid black;
+}
+
+

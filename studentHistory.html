@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to KMIT gatepass</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	
+	</head>
+<body>
+	<div id="container">
+		<div id="header" align="center">
+			<h1>Keshav Memorial Institute of Technology</h1>
+		</div>
+		<div id="nav">
+				<div id="navItem1">
+					<a href="http://127.0.0.1/html/directorHome.py">Monthly Statistics</a>
+				</div>
+				<div id="navItem2">
+					<a href="studentHistory.py">Student History</a>
+				</div>
+				<div id="navItem3">
+					About Us
+				</div>
+				<div id="navItem4">
+					<a href="prelogin.py">Log Out</a>
+				</div>
+		</div>
+		<div id="content">
+			<div id="login_as">
+				<ul><br><br>
+				<li><a href="yearWise.py">Year wise statistics</a></li><br><br>
+				<li><a href="searchStudent.py">Search Student</a></li>
+				</ul> 			
+			
+			</div>
+			<div id="main2">
+				<h3>Gatepass</h3>
+				<h4>Student History</h4><br />
+				<form>
+Student Id :				<input type="text" name="id" value={idno}>
+					</input><input type="submit" name="submitId" value="Submit"></input><br /><br />
+No. of times went out : {out}
+					<table width="100%" align="center" border="1px solid black">
+								
+				

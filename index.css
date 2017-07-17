@@ -1,0 +1,119 @@
+#container{
+	width:100%;
+	text-align:center;
+}
+#header{
+	padding:10px;
+	color:orange;
+	outline:1px solid black;
+	font-size:16px;
+	text-align:center;
+}
+#content{
+	padding:5px;
+	
+	outline:1px solid black;
+	width:99%;
+	
+}
+#content2{
+	padding:5px;
+	
+	outline:1px solid black;
+	width:99%;
+	height:440px;
+}
+#login_as{
+	background-color:lightskyblue;
+	padding:5px;
+	float:left;
+	width:22%;
+	height:430px;
+	text-align:left;
+	font-size:15px;	
+}#main2{
+	padding:5px;
+	background-color:teal;
+	float:right;
+	width:76%;
+	height:430px;
+}
+#footer{
+	
+	background-color:orange;
+	text-align:right;
+}
+form
+{    
+     
+     
+     padding:10px;
+}
+#nav{
+	font-size:17px;
+	padding:5px;
+	
+	width:99%;
+	background-color:grey;
+	text-align:center;
+	color:white;
+	outline:1px solid black;
+	height:20px;
+}
+#navItem2{
+	width:25%;
+	float:left;
+	height:20px;
+}
+#navItem1{
+	width:25%;
+	float:left;
+	height:20px;
+}
+#navItem3{
+	width:25%;
+	float:left;
+	height:20px;
+}
+#navItem4{
+	width:25%;
+	float:right;
+	height:20px;
+}
+#main{
+	padding:5px;
+	background-color:teal;
+	float:center;
+	width:99%;
+}
+#main3{
+	float:left;
+	width:75%;
+	height:600px;
+	background-color:teal;
+}
+#History{
+	outline:1px;
+	width:25%;
+	float:right;
+	height:600px;
+	background-color:#2E9AFE;
+}
+marquee
+{
+     color:red;
+     font-size:12px;
+    }
+#heading
+{
+     color:#ffffff;
+
+}
+#form1
+{
+    
+     background-color:teal;
+     padding:10px;
+}
+
+     

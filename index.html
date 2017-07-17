@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to KMIT gatepass</title>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	
+	</head>
+<body>
+	<div id="container">
+		<div id="header" align="center">
+			<h1>Keshav Memorial Institute of Technology</h1>
+		</div>
+		<div id="nav">
+				<div id="navItem1">
+					<a href="http://127.0.0.1/html/home.py">Issue Gatepass</a>
+				</div>
+				<div id="navItem2">
+					<a href="kmit.py">Register new Student</a>
+				</div>
+				<div id="navItem3">
+					About Us
+				</div>
+				<div id="navItem4">
+					<a href="prelogin.py">Log Out</a>
+				</div>
+		</div>
+		<div id="content">
+			<div id="main3">
+				<h3>GATE PASS</h3>
+				<h4>receptionist</h4>
+				<form>
+No. of passes taken today :		{tot}<hr />
+Student ID : 				<input type="text" name="id" value={idno} ></input><br />
+Reason :					<input type="text" name="reason" value={reason}><br/>
+					<input type="submit" name="submitId" value="Submit"></input><hr />
+					<div id="details">
+Name			:			{name}<br />
+Father's name		:			{fathersname}<br />
+Phone no.		:			{phno}<br />
+Father's Phone no.	:			{fathersphno}<br />
+Year		 	:			{year}<br />
+Branch			:			{branch}<br />
+Section		:			{sec}<br/><br />
+Reason :				{reason}<br />
+<hr/>
+					</div>Out going time : 
+					<select name="regOut">
+						<option value="10:00:00">10:00</option>
+						<option value="10:30:00">10:30</option>
+						<option value="11:00:00">11:00</option>
+						<option value="11:30:00">11:30</option>
+						<option value="12:00:00">12:00</option>
+						<option value="12:30:00">12:30</option>
+						<option value="13:00:00">01:00</option>
+						<option value="13:30:00">01:30</option>
+						<option value="14:00:00">02:00</option>
+						<option value="14:30:00">02:30</option>
+						<option value="15:00:00">03:00</option>
+						<option value="15:30:00">03:30</option>
+					</select><br />
+In coming time :
+					<select name="regIn">
+						<option value="10:30:00">10:30</option>
+						<option value="11:00:00">11:00</option>
+						<option value="11:30:00">11:30</option>
+						<option value="12:00:00">12:00</option>
+						<option value="12:30:00">12:30</option>
+						<option value="13:00:00">01:00</option>
+						<option value="13:30:00">01:30</option>
+						<option value="14:00:00">02:00</option>
+						<option value="14:30:00">02:30</option>
+						<option value="15:00:00">03:00</option>
+						<option value="15:30:00">03:30</option>
+					</select>
+ 
+					
+					<hr /><br />
+					<input type="submit" name="issue" value="Issue Gatepass"></input><br />
+				</form>
+				
+			</div>
+			
+				
+			
+			
+			
+			
+			
+							
+
+					
